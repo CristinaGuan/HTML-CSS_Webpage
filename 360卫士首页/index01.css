@@ -1,0 +1,521 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+div.content{
+	width:1000px;
+	margin:0 auto;
+}
+ul{
+	list-style-type:none;
+}
+
+body{
+	font-size:12pt;
+	color:#666;
+	font-family:"微软雅黑",Arial;
+}
+header,footer,section{
+	width:100%;
+	border:1px solid black;
+}
+#description,#tixing,#icons{
+	width:80%;
+	margin:0 auto;
+}
+header{
+	height:50px;
+}
+#banner{
+	height:550px;
+}
+#description,#hujiao,#tixing,#dingwei{
+	height:650px;
+}
+#icons{
+	height:480px;
+}
+footer{
+	height:300px;
+	clear:both;
+	background-color:#363636;
+}
+/************************header部分***********************/
+div.logo{
+	width:155px;
+	height:26px;
+	float:left;
+	background:url(images/iconlist_1.png) -870px -100px;
+	margin-top:10px;
+}
+header ul{
+	float:right;
+}
+header ul li{
+	float:left;
+}
+header ul a{
+	display:block;
+	height:50px;
+	line-height:50px;
+	padding:0 15px;
+	text-decoration:none;
+	color:#5c5c5c;
+}
+a.android,a.ios{
+	width:66px;
+	height:26px;
+	background-image:url(images/iconlist_2.png);
+	margin-top:12px;
+}
+a.android{
+	background-position:-430px -671px;
+}
+a.ios{
+	background-position:-1655px -536px;
+}
+
+header ul a:not([class]):hover,header ul a.current{
+	border-bottom:3px solid #f1595f;
+}
+#android_code{
+	width:180px; 
+	height:210px;
+	background-image:url(images/iconlist_2.png);
+	background-position:-1654px -297px;
+	position:absolute; 
+	top:48px;
+	display:none;
+}
+#android:hover div{
+	display:block;
+}
+/******************section banner部分********************/
+#banner{
+	background-image:url(images/bg_1.jpg);
+	/*让背景图填满整个区域：旧IE不支持*/
+	background-size:100% 100%；
+	background-color:#dedede;
+	border:0;
+	/*问题：无边框或无padding时，内部元素的margin-top和margin-top会越界，解决：在父元素上加overflow*/
+	overflow:hidden;
+}
+div.title{
+	width:456px;
+	height:60px;
+	background-image:url(images/iconlist_1.png);
+	background-position:-869px 0px;
+	margin:0 auto;
+	margin-top:120px;
+}
+div.title+p{
+	text-align:center;
+	font-size:14px;
+	color:#7e7e7e;
+}
+/*5个小球*/
+#banner ul{
+	width:780px;
+	margin:50px auto;
+}
+#banner ul li{
+	position:relative;
+	width:174px;
+}
+#banner ul i,#banner ul b{
+	background-image:url(images/iconlist_1.png);
+	position:absolute;
+}
+#banner ul i{
+	width:174px;
+	height:174px;
+	z-index:8;
+}
+#banner ul #intro_2 i{
+	background-position:-173px 0;
+}
+#banner ul #intro_2{
+	z-index:10;
+	left:150px;
+}
+#banner ul #intro_3 i{
+	background-position:-346px 0;
+}
+#banner ul #intro_3{
+	z-index:20;
+	left:300px;
+}
+#banner ul #intro_4 i{
+	background-position:-519px 0;
+}
+#banner ul #intro_4{
+	z-index:30;
+	left:450px;
+}
+#banner ul #intro_5 i{
+	background-position:-696px 0;
+}
+#banner ul #intro_5{
+	z-index:40;
+	left:604px;
+}
+#banner ul b{
+	width:173px;
+	height:24px;
+	background-position:-868px -127px;
+	top:160px;
+}
+/*intro_5的移动+旋转*/
+@-webkit-keyframes move5{
+	from{
+		left:-492.72px;
+	}
+	to{
+		left:600px;
+	}
+}
+#banner ul #intro_5{
+	-webkit-animation:move5 4s linear;
+}
+
+@-webkit-keyframes ravovle{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(720deg);
+	}
+}
+#banner ul #intro_5 i{
+	-webkit-animation:ravovle 4s linear;
+}
+/*#intro_1-4的移动*/
+@-webkit-keyframes move4{
+	from{
+		left:-492.72px;
+	}
+	to{
+		left:450px;
+	}
+}
+#banner ul #intro_4 {
+	-webkit-animation:move4 3.45s linear;
+}
+@-webkit-keyframes ravovle{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(720deg);
+	}
+}
+#banner ul #intro_4 i{
+	-webkit-animation:ravovle 3.45s linear;
+}
+
+
+@-webkit-keyframes move3{
+	from{
+		left:-492.72px;
+	}
+	to{
+		left:300px;
+	}
+}
+#banner ul #intro_3 {
+	-webkit-animation:move3 2.9s linear;
+}
+@-webkit-keyframes ravovle{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(720deg);
+	}
+}
+#banner ul #intro_3 i{
+	-webkit-animation:ravovle 2.9s linear;
+}
+
+
+@-webkit-keyframes move2{
+	from{
+		left:-492.72px;
+	}
+	to{
+		left:150px;
+	}
+}
+#banner ul #intro_2 {
+	-webkit-animation:move2 2.35s linear;
+}
+@-webkit-keyframes ravovle{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(720deg);
+	}
+}
+#banner ul #intro_2 i{
+	-webkit-animation:ravovle 2.35s linear;
+}
+
+@-webkit-keyframes move1{
+	from{
+		left:-492.72px;
+	}
+	to{
+		left:0px;
+	}
+}
+#banner ul #intro_1 {
+	-webkit-animation:move1 1.8s linear;
+}
+@-webkit-keyframes ravovle{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transfom:rotate(720deg);
+	}
+}
+#banner ul #intro_1 i{
+	-webkit-animation:ravovle 1.8s linear;
+}
+
+/*********描述部分**********/
+#description{
+	border:0px;
+	text-align:center;
+}
+#description>h3,#description>p{
+	padding-top:30px;
+}
+#description>h3{
+	font-size:28pt;
+	font-weight:normal;
+	color:#424242;
+	font-family:"华文细黑";
+}
+#description>p{
+	font-size:13pt;
+	line-height:30px;
+	color:#949494；
+}
+#description>div{
+	width:638px;
+	height:298px;
+	background-image:url(images/iconlist_2.png);
+	background-position:-1655px 0px;
+	margin:45px auto 0px auto;
+}
+/*************一键呼叫**************/
+#hujiao{
+	background-image:url(images/bg_2.jpg);
+	background-position:50% 80%;
+	background-size:120% 120%;
+}
+#hujiao>div{
+	width:60%;
+	height:500px;
+	float:left;
+	margin-top:100px;
+	padding-right:80px;
+	text-align:right;
+}
+#hujiao>div h3{
+	font-size:30pt;
+	font-weight:normal;
+	height:90px;
+	line-height:90px;
+	color:#ffe325;
+	margin:40px 0;
+}
+#hujiao>div h3 b{
+	float:right;
+	width:80px;
+	height:86px;
+	background-image:url(images/iconlist_3.png);
+}
+#hujiao>div p{
+	font-size:14px;
+	line-height:30px;
+	color:#8b7f73;
+
+}
+#hujiao>b{
+	float:left;
+	width:255px;
+	height:530px;
+	background-image:url(images/iconlist_2.png);
+	background-position:-570px 0px;
+	margin-top:70px;
+	transition:transfrom 1s ;
+}
+#hujiao>b:hover{
+	transform:rotate(25deg);
+}
+/********#提醒部分********/
+#tixing{
+	border:0px;
+	background-image:url(images/bg_3.jpg);
+	background-size:100% 100%;
+	margin-top:25px;
+}
+/***********定位记录**************/
+#dingwei{
+	background-image:url(images/bg_4.jpg);
+	background-position:50% 80%;
+	background-size:120% 120%;
+}
+#dingwei>b{
+	float:left;
+	width:280px;
+	height:528px;
+	background:url(images/iconlist_2.png) no-repeat -903px -4px;
+	margin-left:302px;
+	margin-top:75px;
+	transition:transfrom 1s;
+
+}
+#dingwei>b:hover{
+	transform:rotate(25deg);
+}
+#dingwei>div{
+	width:45%;
+	height:500px;
+	float:left;
+	margin-top:150px;
+	padding-left:100px;
+	text-align:left;
+}
+#dingwei>div h3{
+	font-size:30pt;
+	font-weight:normal;
+	height:90px;
+	line-height:90px;
+	color:#17CAF5;
+	margin:40px 0;
+	
+}
+#dingwei>div h3 b{
+	float:left;
+	width:80px;
+	height:86px;
+	background:url(images/iconlist_3.png) no-repeat -170px 0px;
+	margin-right:10px;
+}
+#dingwei>div p{
+	font-size:14px;
+	line-height:30px;
+	color:#8b7f73;
+
+}
+
+
+/************功能图标*********************/
+
+#icons{
+	border:0px;
+
+}
+#icons ul{
+	padding-top:100px;
+	padding-left:200px;
+	
+}
+#icons ul li{
+	float:left;
+	width:40%;
+	height:175px;
+	margin-left:5px;
+	
+}
+#icons ul b{
+	float:left;
+	width:85px;
+	height:80px;
+	background-image:url(images/iconlist_3.png);
+	margin-right:10px;
+}
+#icons ul b:hover{
+	-webkit-animation:jump 0.3s linear 2;
+}
+#icons ul div{
+	float:left;
+	width:200px;
+	line-height:20px;
+	font-size:11pt;
+	color:#a3a3a3;
+}
+#icons ul div h3{
+	color:#ffe325;
+	font-size:16pt;
+	margin:10px auto;
+}
+@-webkit-keyframes jump{
+	0%{transform:rotate(0deg);opacity:1;}
+	25%{transform:rotate(10deg);opacity:0.5;}
+	50%{transform:rotate(0deg);opacity:1;}
+	75%{transform:rotate(-10deg);opacity:0.5;}
+	100%{transform:rotate(0deg);opacity:1;}
+}
+footer>ul{
+	float:left;
+	margin-left:100px;
+	margin-top:5px;
+	margin-right:100px;
+}
+footer>ul h3{
+	height:60px;
+	line-height:60px;
+	
+}
+footer>ul h3 a{
+	color:#818390;
+	font-weight:normal;
+	font-size:22px;
+	text-decoration:none;
+}
+footer>ul li{
+	line-height:30px;
+}
+footer>ul li a{
+	color:#818390;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+footer>div{
+	float:left;
+	margin-left:100px;
+	margin-top:25px;
+}
+footer>div b{
+	float:left;
+	width:112px;
+	height:112px;
+	background:url(images/iconlist_2.png) no-repeat;
+	margin-right:15px;
+}
+footer>div.weibo b{
+	background-position:0px -590px;
+}
+footer>div.weixin b{
+	background-position:-216px -590px;
+}
+footer>div span{
+	float:right;
+	width:150px;
+	padding:auto 100px;
+	margin-top:40px;
+}
+footer>p{
+	clear:both;
+	text-align:center;
+	font-size:16px;
+	color:#92958E;
+	width:
+}
