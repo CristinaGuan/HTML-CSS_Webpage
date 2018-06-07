@@ -394,6 +394,7 @@ nav {
 /*其他导航项*/
 #nav_items {
     float:left;
+    margin-left: 210px;
 }
 #nav_items li {
     float:left;
