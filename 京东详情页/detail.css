@@ -104,7 +104,7 @@ div.bread-crumb span {
 #preview a.backward,#preview a.forward,#preview a.backward_disabled,#preview a.forward_disabled {
     width: 17px;
     height: 54px;
-    background-image: url(images/iconlist_1.png);
+    background-image: url(./images/iconlist_1.png);
     background-repeat: no-repeat;
     display:block;
     z-index:20;
@@ -208,7 +208,7 @@ div.bread-crumb span {
     display: inline-block;
     width: 75px;
     height: 14px;
-    background-image: url(images/iconlist_1.png);
+    background-image: url(./images/iconlist_1.png);
     background-repeat: no-repeat;
 }
 /*配送至*/
@@ -242,7 +242,7 @@ div.bread-crumb span {
     width: 17px;
     height: 24px;
     background-position: -264px -188px;
-    background-image: url(images/iconlist_1.png);
+    background-image: url(./images/iconlist_1.png);
     background-repeat: no-repeat;
 }
 /*服务*/
@@ -251,7 +251,7 @@ div.bread-crumb span {
     height: 16px;
     line-height: 16px;
     margin-right: 5px;
-    background-image: url(images/promise.png);
+    background-image: url(./images/promise.png);
     background-repeat: no-repeat;
     vertical-align: middle;
 }
@@ -293,7 +293,7 @@ div.bread-crumb span {
     width: 12px;
     height: 12px;
     overflow: hidden;
-    background-image: url(images/iconlist_1.png);
+    background-image: url(./images/iconlist_1.png);
     background-repeat: no-repeat;
     background-position: -202px -224px;
 }
@@ -305,7 +305,7 @@ div.bread-crumb span {
 #choose_amount a.btn_reduce,#choose_amount a.btn_add {
     background-position: -216px -190px;
     float:left;
-    background-image: url(images/iconlist_1.png);
+    background-image: url(./images/iconlist_1.png);
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
@@ -333,13 +333,13 @@ div.bread-crumb span {
 }
 a.choose_btn_append {
     width: 137px;
-    background-image: url(images/iconlist_4.png);
+    background-image: url(./images/iconlist_4.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 a.choose_mark {
     width:78px;
-    background-image: url(images/iconlist_4.png);
+    background-image: url(./images/iconlist_4.png);
     background-position: 0 -307px;
 }
 /****************************Detail:V05**********************************/
@@ -367,7 +367,7 @@ a.choose_mark {
     width: 17px;
     height: 17px;
     background-position: -257px -86px;
-    background-image: url(images/iconlist_1.png);
+    background-image: url(./images/iconlist_1.png);
     background-repeat:no-repeat;
     background-color:transparent;
 }
@@ -409,7 +409,7 @@ a.choose_mark {
     height: 5px;
     overflow: hidden;
     background-position: 0 -35px;
-    /*background-image: url(images/iconlist_5.png);*/
+    /*background-image: url(./images/iconlist_5.png);*/
     background-repeat: no-repeat; 
 }
 #store_tabs li.hover b {
@@ -521,7 +521,7 @@ div.view_buy ul p {
     margin-bottom:5px;
 }
 div.view_buy ul p img {
-    /*background: url(images/loading-jd.gif) no-repeat 50% 50%;*/
+    /*background: url(./images/loading-jd.gif) no-repeat 50% 50%;*/
     border: 0;
     vertical-align: middle;
     height: 100px;

@@ -82,15 +82,15 @@ a:hover {
     padding:0px 5px 0px 0px;    
 }
 li.vip a {
-    background:url(images/vip.jpg) left center no-repeat;
+    background:url(./images/vip.jpg) left center no-repeat;
     padding-left:30px;
 }
 li.dakehu a {
-    background:url(images/dakehu.jpg) left center no-repeat;
+    background:url(./images/dakehu.jpg) left center no-repeat;
     padding-left:30px;
 }
 li.app_jd a {
-    background-image:url(images/iconlist_2.png);
+    background-image:url(./images/iconlist_2.png);
 	background-position:-126px -357px; 
 	background-repeat:no-repeat;
     padding-left:20px;
@@ -114,17 +114,17 @@ li.app_jd a:hover,li.app_jd a.hover{
     border:1px solid #DDD;
     border-top:1px solid #fff;
     box-shadow:0 0 10px #DDD;
-    background:#fff url(images/app_jd_1.png) 10px 10px no-repeat;
+    background:#fff url(./images/app_jd_1.png) 10px 10px no-repeat;
 }
 #app_jd_items div.app,#app_jd_items div.bank {
     height:110px;
     padding-left:100px;
 }
 #app_jd_items div.app {
-    background:url(images/app_jd_erwei.jpg) 15px center no-repeat;
+    background:url(./images/app_jd_erwei.jpg) 15px center no-repeat;
 }
 #app_jd_items div.bank {
-    background:url(images/app_jd_wangyin.png) 15px center no-repeat;
+    background:url(./images/app_jd_wangyin.png) 15px center no-repeat;
 }
 #app_jd_items h3 {
     text-align:left;
@@ -138,10 +138,10 @@ li.app_jd a:hover,li.app_jd a.hover{
     margin-bottom:6px;
 }
 #app_jd_items a.app {
-    background:url(images/iconlist_2.png) 0px -360px no-repeat;
+    background:url(./images/iconlist_2.png) 0px -360px no-repeat;
 }
 #app_jd_items a.android {
-    background:url(images/iconlist_2.png) 0px -399px no-repeat;
+    background:url(./images/iconlist_2.png) 0px -399px no-repeat;
 }
 
 li.service>a {
@@ -149,12 +149,12 @@ li.service>a {
     height:26px;
     border:1px solid transparent;
     padding:0px 15px;
-    background-image:url(images/jt_down.jpg);
+    background-image:url(./images/jt_down.jpg);
     background-position:65px center;
     background-repeat:no-repeat;
 }
 li.service>a:hover {
-    background-image:url(images/jt_up.jpg);
+    background-image:url(./images/jt_up.jpg);
     background-color:#fff;
     border:1px solid #DDD;
     border-bottom-width:0px;
@@ -231,7 +231,7 @@ div.hot_words span {
     height: 30px;
     line-height: 30px;
     margin-top: 12px;
-    background-image: url(images/iconlist_2.png);
+    background-image: url(./images/iconlist_2.png);
     background-repeat: no-repeat;
     padding: 0 4px 0 25px;
     border: 1px solid #EFEFEF;
@@ -263,7 +263,7 @@ div.hot_words span {
     margin-top: 12px;
     margin-left:10px;
     padding: 0 5px 0px 25px;
-    background-image: url(images/iconlist_2.png);
+    background-image: url(./images/iconlist_2.png);
     background-repeat: no-repeat;
     border: 1px solid #EFEFEF;
     background-position: -115px -84px;
@@ -303,7 +303,7 @@ div.hot_words span {
     height:40px;  
     float:left;
     margin:5px 5px 0px 55px;
-    background-image:url(images/iconlist_2.png);
+    background-image:url(./images/iconlist_2.png);
     background-repeat:no-repeat;
 }
 #foot_box ul {
@@ -383,7 +383,7 @@ nav {
 #category>b {
     width:20px;
     height: 20px;
-    background-image:url(images/iconlist_2.png);
+    background-image:url(./images/iconlist_2.png);
     background-position: -65px 0;
     background-repeat:no-repeat;
     float:right;
